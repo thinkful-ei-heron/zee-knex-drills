@@ -1,0 +1,21 @@
+{
+  "name": "knex-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test/setup.js",
+    "start": "node src/blogful.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  }
+}
